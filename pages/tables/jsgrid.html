@@ -166,14 +166,14 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
           <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
         </div>
-      </div>
+      </div> -->
 
       <!-- SidebarSearch Form -->
       <div class="form-inline">
@@ -256,12 +256,11 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>jsGrid</h1>
+            <h1>Patients List</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">All patients list</li>
             </ol>
           </div>
         </div>
@@ -271,9 +270,9 @@
     <!-- Main content -->
     <section class="content">
       <div class="card">
-        <div class="card-header">
+        <!-- <div class="card-header">
           <h3 class="card-title">All patients list</h3>
-        </div>
+        </div> -->
         <!-- /.card-header -->
         <div class="card-body">
           <div id="jsGrid1"></div>
@@ -324,11 +323,11 @@
         data: db.clients,
 
         fields: [
-            { name: "First Name", type: "text", width: 150 },
-            { name: "Last Name", type: "text", width: 150 },
+            { name: "Name", type: "text", width: 150 },
+            { name: "Religion", type: "text", width: 150 },
             { name: "Age", type: "number", width: 50 },
             { name: "UHID", type: "number", width: 50 },
-            { name: "Admitted On", type: "number", width: 150 }
+            { name: "Admitted On", type: "text", width: 150 }
         ]
     });
   });
