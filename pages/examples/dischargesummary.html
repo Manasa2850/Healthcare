@@ -677,7 +677,7 @@
               </p>
             </a>
 
-            <a href="dischargesummary.html" class="nav-link">
+            <a href="dischargesummary.html" class="nav-link active">
                 <i class="nav-icon fas fa-edit"></i>
                 <p>
                   Record Discharge Summary
@@ -712,7 +712,7 @@
             </ul> -->
           </li>
           <li class="nav-item">
-            <a href="simple.html" class="nav-link active">
+            <a href="simple.html" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
                 Add Patient
@@ -758,7 +758,7 @@
           <div class="col-md-6">
             <div class="card card-info">
               <div class="card-header">
-                <h3 class="card-title">Create New Patient</h3>
+                <h3 class="card-title">Record Discharge Summary</h3>
               </div>
               <div class="card-body">
                 <!-- Date -->
@@ -768,23 +768,17 @@
                 </div>
 
                 <div class="form-group">
-                  <label>Enter UHID ID</label>
-                  <input class="form-control" type="text">                  
-                </div>
-
-                <div class="form-group">
-                  <label>Enter RCH ID</label>
-                  <input class="form-control" type="text">                  
-                </div>
-
-                <div class="form-group">
                     <label>Patient Name</label>
                     <input class="form-control" type="text">                  
                   </div>
 
+                  <div class="form-group">
+                    <label>Patient Contact Number</label>
+                    <input class="form-control" type="text">                  
+                  </div>
                 <!-- Date and time -->
                 <div class="form-group">
-                  <label>Date of Birth</label>
+                  <label>Date of Admission:</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
                         <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -794,27 +788,12 @@
                 </div>
 
                 <div class="form-group">
-                  <label>Contact Number</label>
-                  <input class="form-control" type="text">                  
-                </div>
-
-                <div class="form-group">
-                    <label>Address</label>
-                    <input class="form-control" type="text">                  
-                  </div>
-                
-                  <div class="form-group">
-                    <label>Relationship Details</label>
+                    <label>Weight on Date of Admission (in kg)</label>
                     <input class="form-control" type="text">                  
                   </div>
 
                   <div class="form-group">
-                    <label>Referred By</label>
-                    <input class="form-control" type="text">                  
-                  </div>
-
-                  <div class="form-group">
-                    <label>Date of Admission</label>
+                    <label>Date of Discharge:</label>
                       <div class="input-group date" id="reservationdate" data-target-input="nearest">
                           <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
                           <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -834,41 +813,14 @@
                       </div>
 
                     <div class="form-group">
-                        <label>Gender</label>
+                        <label>Outcome</label>
                         <select class="form-control select2" style="width: 100%;">
-                          <option selected="selected">Male</option>
-                          <option>Female</option>
-                          <option>Other</option>
+                          <option selected="selected">Improved</option>
+                          <option>Poor Prognosis</option>
+                          <option>Death</option>
                           
                         </select>
                       </div>
-
-                      <div class="form-group">
-                        <label>Religion</label>
-                        <select class="form-control select2" style="width: 100%;">
-                          <option selected="selected">Hindu</option>
-                          <option>Christian</option>
-                          <option>Muslim</option>
-                          
-                        </select>
-                      </div>
-
-                      <div class="form-group">
-                        <label>Caste</label>
-                        <select class="form-control select2" style="width: 100%;">
-                          <option>Brahmin</option>
-                          <option>Female</option>
-                          <option>Other</option>
-                          
-                        </select>
-                      </div>
-                    
-                      <div class="form-group">
-                      <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label >BPL</label>
-                      </div>
-                    </div>
 
                 <div class="form-group">
                     <label>Treatment Protocol</label>

@@ -167,7 +167,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="index.html" class="nav-link">
+            <a href="../../index.html" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -177,18 +177,10 @@
           </li>
      
           <li class="nav-item">
-            <a href="patientlist.html" class="nav-link active">
+            <a href="pages\examples\patientlist.html" class="nav-link active">
               <i class="nav-icon fas fa-edit"></i>
               <p>
                 List Patients
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-
-            <a href="dischargesummary.html" class="nav-link">
-              <i class="nav-icon fas fa-edit"></i>
-              <p>
-                Record Discharge Summary
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -240,7 +232,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Patient Follow Up Details</h1>
+            <h1>Patient List</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -258,14 +250,15 @@
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
+          <!-- <h3 class="card-title">Projects</h3> -->
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
               <i class="fas fa-minus"></i>
             </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+            <!-- <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
               <i class="fas fa-times"></i>
-            </button>
+            </button> -->
           </div>
         </div>
         <div class="card-body p-0">
@@ -273,19 +266,22 @@
               <thead>
                   <tr>
                       <th style="width: 1%">
-                          #
+                          <!-- # -->
                       </th>
                       <th style="width: 20%">
-                          Date of Follow Up
+                          Name
+                      </th>
+                      <th style="width: 10%">
+                          Age
                       </th>
                       <th style="width: 20%">
-                          Worker Assigned
+                          UHID
                       </th>
                       <th style="width: 20%">
-                          Worker Contact Info
-                      </th>
-                      <th style="width: 20%">
-                        Status
+                        Address
+                    </th>
+                    <th style="width: 20%">
+                        Gender
                     </th>
                     <!-- <th style="width: 10%">
                         Gender
@@ -293,27 +289,27 @@
                     <th>
                         Religion
                     </th> -->
-                      <!-- <th style="width: 8%" class="text-center">
-                          Status
+                      <th style="width: 8%" class="text-center">
+                          <!-- Status -->
                       </th>
                       <th style="width: 20%">
-                      </th> -->
+                      </th>
                   </tr>
               </thead>
               <tbody>
                   <tr>
                       <td>
-                          #
+                          <!-- # -->
                       </td>
                       <td>
                           <a>
-                              20-01-2022
+                              Gayathri V
                           </a>   
                       </td>
 
                       <td>
                         <a>
-                            Mira Chawla
+                            14
                         </a>   
                     </td>
                       <!-- <td>
@@ -333,7 +329,7 @@
                           </ul>
                       </td> -->
                       <td class="project_progress">
-                        9893524464
+                        1736257
                           <!-- <div class="progress progress-sm">
                               <div class="progress-bar bg-green" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%">
                               </div>
@@ -342,71 +338,31 @@
                               57% Complete
                           </small> -->
                       </td>
-                      <td class="project-state">
-                          <span class="badge badge-success">Complete</span>
-                      </td>    
+                      <td>Indiranagar</td>
+                      <td>Female</td>
+                      <!-- <td class="project-state">
+                          <span class="badge badge-success">Femal</span>
+                      </td> -->
+                      <td class="project-actions text-right">
+                          <a class="btn btn-primary btn-sm" href="project-detail-receptionist.html">
+                              <i class="fas fa-folder">
+                              </i>
+                              View 
+                          </a>
+                          <a class="btn btn-info btn-sm" href="#">
+                              <i class="fas fa-pencil-alt">
+                              </i>
+                              Edit
+                          </a>
+                          <a class="btn btn-danger btn-sm" href="#">
+                              <i class="fas fa-trash">
+                              </i>
+                              Delete
+                          </a>
+                      </td>
+                  </tr>
+                 
 
-                      <td class="project-state">
-                        <!-- <span class=".btn .btn-xs"><a href="report.html">View</a></span> -->
-                        <a href="viewdetails.html" class="btn btn-block btn-outline-primary btn-xs">View</a>
-                    </td>    
-                  </tr>       
-
-                  <tr>
-                    <td>
-                        #
-                    </td>
-                    <td>
-                        <a>
-                            20-01-2022
-                        </a>   
-                    </td>
-
-                    <td>
-                      <a>
-                          Areem Bansal
-                      </a>   
-                  </td>
-                    <td class="project_progress">
-                      8868599253
-                    </td>
-                    <td class="project-state">
-                        <span class="badge badge-warning">Pending</span>
-                    </td>   
-                    
-                    <td class="project-state">
-                      <!-- <span class=".btn .btn-xs"><a href="report.html">View</a></span> -->
-                      <a href="viewdetails.html" class="btn btn-block btn-outline-primary btn-xs disabled">View</a>
-                    </td>
-                </tr>
-                
-                <tr>
-                    <td>
-                        #
-                    </td>
-                    <td>
-                        <a>
-                            20-02-2022
-                        </a>   
-                    </td>
-
-                    <td>
-                      <a>
-                          Shruti Banjra
-                      </a>   
-                  </td>
-                    <td class="project_progress">
-                      7033554241
-                    </td>
-                    <td class="project-state">
-                        <span class="badge badge-danger">Overdue</span>
-                    </td>           
-
-                    <td class="project-state">
-                      <!-- <span class=".btn .btn-xs"><a href="report.html">View</a></span> -->
-                      <a href="viewdetails.html" class="btn btn-block btn-outline-primary btn-xs disabled">View</a>
-                    </td>
-                </tr>
               </tbody>
           </table>
         </div>
@@ -419,7 +375,13 @@
   </div>
   <!-- /.content-wrapper -->
 
-  
+  <!-- <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.2.0
+    </div>
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+  </footer> -->
+
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
